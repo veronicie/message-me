@@ -5,3 +5,12 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+#
+# terminal: rails db:seed
+
+
+User.create(username: "Unicorn", password: "password")
+User.create(username: "Minion", password: "password")
+User.create(username: "Husky", password: "password")
+User.create(username: "Morena", password: "password")
+User.create(username: "Gandalf", password: "password")
