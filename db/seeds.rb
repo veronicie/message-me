@@ -8,9 +8,8 @@
 #
 # terminal: rails db:seed
 
-
-User.create(username: "Unicorn", password: "password")
-User.create(username: "Minion", password: "password")
-User.create(username: "Husky", password: "password")
-User.create(username: "Morena", password: "password")
-User.create(username: "Gandalf", password: "password")
+Message.create(body: "Očitým jej trvalo týmž pána zdá poděla v co třásla?", user_id: 1)
+Message.create(body: "Ó bože línou antona jářku zeť nepřítele žádná, s to otcové neumíš hříšnou, s vašnosty od přístupná.", user_id: 5)
+Message.create(body: "Hrabat si drobnohledem nič ah přivedl tej nahlédnete námořník.", user_id: 3)
+Message.create(body: "Ono hrubství činy botou poctivé od nečetl korekci účtů, fuk rus prásk lues vlakem. Mi od tamnímu všecky vtom časem. ", user_id: 4)
+Message.create(body: "Mu nu ni příštího i vytáhli prásk vřele oč pytle cín nesměl.", user_id: 1)
